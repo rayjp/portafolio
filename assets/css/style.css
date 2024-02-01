@@ -110,12 +110,7 @@ nav button#menuButton{
     align-items: start;
 }
 
-.main .left h3{
-    margin-top: 10px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-}
+
 
 .main .left h3 span{
     color: #5e3bee;
@@ -146,7 +141,7 @@ nav button#menuButton{
 }
 
 .main .right img{
-    width: 120%;
+    width: 150%;
     
 }
 
@@ -165,7 +160,7 @@ nav button#menuButton{
 
 .skills .skill-items{
     display: flex;
-    margin-top: 50px;
+    margin-top: 32px;
     gap: 30px;
 }
 
@@ -419,6 +414,22 @@ footer .bottom .links a{
     margin-left: 14px;
 }
 
+@media screen and (max-width: 1920px) {
+    
+    
+    .main .left h3{
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 67px;
+    }
+
+    
+}
+
+
+
+
 @media screen and (max-width: 1200px) {
     
     .main .left h5{
@@ -598,7 +609,9 @@ footer .bottom .links a{
     }
 
     .main .left h3{
-        font-size: 32px;
+        font-size: 24px;
+        font-weight: 20px;
+        line-height: 33px;
     }
 
     .main .left p{
@@ -614,8 +627,14 @@ footer .bottom .links a{
         
     }
 
+    .skills
+    {
+        padding: 36px 42px 0;
+    }
+
     .skills .skill-items .item{
         width: 100%;
+        margin-bottom: 32px;
     }
 
     .portfolio .header button{
