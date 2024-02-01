@@ -157,8 +157,9 @@ nav button#menuButton{
 .about .right h3,
 .portfolio .header h3,
 .feedback h3{
-    font-size: 40px;
+    font-size: 28px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .skills .skill-items{
@@ -279,6 +280,7 @@ nav button#menuButton{
     width: 30%;
     background-color: rgb(247, 242, 242);
     border-radius: 10px;
+    padding: 16px;
     border-bottom: 4px solid transparent;
     cursor: pointer;
     box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
