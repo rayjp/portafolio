@@ -199,7 +199,12 @@ nav button:hover{
     margin-top: 8px;
     font-size: 14px;
     line-height: 20px;
-    color: #4b1658;
+    color: #2c2c2c;
+}
+
+.skills .skill-items .item  ul{
+    margin-top: 16px;
+    
 }
 
 .about{
