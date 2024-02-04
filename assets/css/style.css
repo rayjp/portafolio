@@ -91,11 +91,11 @@ nav button:hover{
 
 .main{
     background-color: #deebee;
-    padding: 96px 85px;
+    padding: 110px 85px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 40px;
+   
 }
 
 .main .left{
@@ -136,7 +136,7 @@ nav button:hover{
 }
 
 .main .right img{
-    width: 150%;
+    width: 120%;
     
 }
 
