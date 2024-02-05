@@ -23,6 +23,21 @@ h1
     line-height: 3.3rem;
 }
 
+h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+h4{
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+}
+
 
 h5{
     font-size: 20px;
@@ -49,6 +64,28 @@ nav{
     font-size: 22px;
     
 
+}
+
+.about .right img{
+    display: none;
+}
+
+.about .right button{
+    margin-top: 24px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #9993f3;
+    padding: 16px 24px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.about .right button:hover{
+    background-color: #5f3bee1a;
+    border-color: #5e3bee;
+    color: #fff;
 }
 
 nav .logo,
@@ -210,10 +247,11 @@ nav button:hover{
 }
 
 .about{
-    padding: 110px;
+    padding: 72px;
     display: flex;
-    align-items: center;
-    gap: 60px;
+    align-items:stretch;
+    justify-content: space-between;
+    
 }
 
 .about .left{
@@ -222,12 +260,63 @@ nav button:hover{
 }
 
 .about .left img{
-    width: 440px;
+    width: 400px;
 }
 
 .about .right p{
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    padding-right: 2.5rem;
+}
+
+.skill2
+{
+    
+    background-color: #fafafa;
+    box-shadow: inset 5em 1em rgb(123, 118, 129);
+    padding: 110px;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+}
+
+.skill2 .center
+{
+    width: 30%;
+
+}
+
+.skill2 .center img
+{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+.skill2 .left
+{
+    text-align: center;
+    width: 30%;
+
+}
+
+.skill2 .right
+{
+    
+    text-align: center;
+    width: 30%;
+    
+}
+
+
+
+.skill2 .right, .left p
+{
+    
+    margin-top: .2rem;
+    
 }
 
 .portfolio{
@@ -541,10 +630,7 @@ footer .bottom .links a{
     nav{
         justify-content: space-between;
         padding: 0 42px;
-    }
-
-   
-    
+    }  
     
     .main{
         padding: 42px;
@@ -564,7 +650,7 @@ footer .bottom .links a{
     }
 
     .about{
-        padding: 85px 42px;
+        padding: 32px 42px;
     }
 
     .portfolio{
@@ -591,14 +677,62 @@ footer .bottom .links a{
 }
 
 @media screen and (max-width: 576px) {
+
+    .about .left img{
+        display: none;
+    }
+
+    .about .right img{
+        display: inline;
+    }
+
+    .about .right p{
+        
+        padding-right: 0;
+    }
+
+    .about .right .imagen-mobile{
+        text-align: center;
+    }
+
+
+    .about .title-main
+{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+    .about .button
+    {
+        text-align: center;
+    }
+
+    .about p
+    {
+        text-align: justify;
+        
+    }
+
+    .about .title-secondary
+    {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
     
     nav ul li a{
-        font-size: 13px;
+        font-size: .6rem;
     }
     
 
     nav .logo a{
         font-size: 18px;
+    }
+
+    nav .menu__item3
+    {
+        width: 2.7rem;
     }
 
     .main .left h1{
@@ -611,7 +745,9 @@ footer .bottom .links a{
     }
 
     .main .left button{
-        width: 100%;
+        width: 60%;
+        border-radius: 12px;
+        box-shadow: none;
     }
 
     .main .right img{
