@@ -180,7 +180,8 @@ nav button:hover{
 }
 
 .skills{
-    padding: 40px 85px 0;
+    padding: 40px 32px 0;
+    margin-bottom: 24pt;
 }
 
 .skills h3,
@@ -247,7 +248,7 @@ nav button:hover{
 }
 
 .about{
-    padding: 72px;
+    padding: 48pt;
     display: flex;
     align-items:stretch;
     justify-content: space-between;
@@ -320,8 +321,8 @@ nav button:hover{
 }
 
 .portfolio{
-    background-color: #deebee;
-    margin-top: 40px;
+    background-color: #fafafa;
+    margin-top: 20px;
     padding: 72px 85px;
 }
 
